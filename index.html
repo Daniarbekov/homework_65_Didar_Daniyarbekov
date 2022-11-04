@@ -19,5 +19,24 @@
             }
         }
     </script>
+    <!-- Задание 2 -->
+    <script type="application/javascript">
+        let list1 = [1, 5, 12, 4, 3];
+        let list2 = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+        let list3 = [3, 10, 17];
+
+        let getAvg = function(numbers){
+            let total = 0;
+            numbers.forEach(function(number){
+                total += number;
+            }
+            )
+            return total / numbers.length;
+        }
+
+        console.log(getAvg(list1));
+        console.log(getAvg(list2));
+        console.log(getAvg(list3));
+    </script>
 </body>
 </html>
